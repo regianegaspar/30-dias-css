@@ -16,3 +16,14 @@ Referências: [Online Tutorials](https://www.youtube.com/channel/UCbwXnUipZsLfUc
 * Nth-child
 * Transcições
 * Transform
+
+## Dia 2 - Loader animado
+
+
+<p align="center"><img src="imagens/dia-02.gif" alt="Imagem do segundo desafio"width="300px"></p>
+
+### O que aprendi e utilizei
+
+* CSS Animation
+* CSS Transform
+*CSS @keyframes

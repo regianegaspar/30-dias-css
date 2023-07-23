@@ -1,0 +1,135 @@
+section{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+}
+
+div{
+    align-items: center;
+    display: flex;
+    height: 150px;
+    justify-content: center;
+    text-align: center;
+    width: 150px;
+}
+
+.rodar{
+    animation: animacao1 3s linear infinite;
+    border: 10px dotted var(--cor03);
+    border-radius: 50%;
+    border-top-color: var(--cor04);
+}
+
+.rodar, .texto, .texto2{
+    position: absolute;
+}
+
+.texto2, .texto{
+    text-shadow: -1px -1px 10px var(--cor04);
+}
+
+@keyframes animacao1{
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.texto{
+    animation: atexto 5s linear infinite;
+}
+
+@keyframes atexto{
+    0%{
+        transform: translateY(20px);
+    }
+    50%{
+        transform: translateY(-20px);
+    }
+    100%{
+        transform: translateY(20px);
+    }
+}
+
+.loader{
+    align-items: center;
+    border-radius: 50%;
+    display: flex;
+    height: 150px;
+    justify-content: center;
+    text-align: center;
+    width: 150px;
+
+}
+
+.loader{
+    animation: animacao2 1.5s linear infinite;
+    background-image: linear-gradient(to right, var(--cor02), var(--cor03), var(--cor04));
+    /* background-image: linear-gradient(to right,#14ffe9, #ffeb3b, #ff00e0); */
+    border-radius: 50%;
+    height: 150px;
+    position: relative;
+    width: 150px;
+}
+
+.loader span{
+    animation: animacao2 0.5s linear infinite;
+    border-radius: 50%;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+
+.loader span:nth-child(1){
+    filter: blur(5px);
+}
+
+.loader span:nth-child(2){
+    filter: blur(10px);
+}
+
+.loader span:nth-child(3){
+    filter: blur(25px);
+}
+
+.loader span:nth-child(4){
+    filter: blur(50px);
+}
+
+.loader:after{
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    /* background: #240229; */
+    background: var(--cor01);
+    border-radius: 50%;
+}
+
+@keyframes animacao2{
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.loader2{
+    animation: pulsar 2s infinite alternate;
+}
+
+@keyframes pulsar{
+    0%{
+        transform: scale(.8);
+    }
+    100%{
+        transform: scale(1.0);
+    }
+}
