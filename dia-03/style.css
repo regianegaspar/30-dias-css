@@ -1,3 +1,5 @@
+@import url(dia-3.css);
+
 :root{
     --cor01: #f7fbfc;
     --cor02: #d6e6f2;
@@ -10,6 +12,7 @@ body{
     margin: 0;
     padding: 0;
     background-color: var(--cor01);
+    
 }
 
 header{
@@ -36,8 +39,10 @@ a{
 }
 
 main{
+
     font-size: 18px;
-    margin: 30px; 
+    margin: 30px;
+
 }
 
 main h2{

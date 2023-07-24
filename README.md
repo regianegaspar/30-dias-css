@@ -26,4 +26,15 @@ Referências: [Online Tutorials](https://www.youtube.com/channel/UCbwXnUipZsLfUc
 
 * CSS Animation
 * CSS Transform
-*CSS @keyframes
+* CSS @keyframes
+
+## Dia 3 - Mudança de cor
+
+
+<p align="center"><img src="imagens/dia-03.gif" alt="Imagem do terceiro desafio"width="300px"></p>
+
+### O que aprendi e utilizei
+
+* CSS Animation
+* CSS Filter - Hue rotate
+* CSS @keyframes
