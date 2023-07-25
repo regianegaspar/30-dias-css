@@ -38,3 +38,14 @@ Referências: [Online Tutorials](https://www.youtube.com/channel/UCbwXnUipZsLfUc
 * CSS Animation
 * CSS Filter - Hue rotate
 * CSS @keyframes
+
+## Dia 4 - Botão com efeito
+
+
+<p align="center"><img src="imagens/dia-04.gif" alt="Imagem do quarto desafio"width="300px"></p>
+
+### O que aprendi e utilizei
+
+* Before
+* Hover
+* Transições

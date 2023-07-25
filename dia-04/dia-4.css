@@ -1,0 +1,53 @@
+section{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;    
+}
+
+.botao{
+    align-items: center;
+    border: 2px solid var(--cor04);
+    border-radius: 10px;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    overflow: hidden;
+    padding: 12px;
+    position: relative;
+    text-transform: uppercase;
+    width: 200px;  
+}
+
+.botao::before{
+    background: var(--cor03);
+    content: "";
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: -1; /*para ficar atrás do botaõ*/
+    transition: all 1s;
+}
+
+.botao1::before{
+    left: 0;
+    top: 0;
+    width: 0;    
+}
+
+.botao1:hover::before{
+    width: 100%;
+}
+
+.botao2::before{
+    left: 50%;
+    height: 0;
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+    width: 100%;
+}
+
+.botao2:hover::before{
+    height: 375%;
+}
