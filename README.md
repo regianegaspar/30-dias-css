@@ -49,3 +49,13 @@ Referências: [Online Tutorials](https://www.youtube.com/channel/UCbwXnUipZsLfUc
 * Before
 * Hover
 * Transições
+
+## Dia 5 - Efeito pulsar
+
+
+<p align="center"><img src="imagens/dia-05.gif" alt="Imagem do quinto desafio"width="300px"></p>
+
+### O que aprendi e utilizei
+
+* Animações CSS
+* Transform

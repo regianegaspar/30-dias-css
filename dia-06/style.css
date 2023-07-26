@@ -30,7 +30,6 @@ nav{
     gap: 30px;
     margin: 10px;
 }
-
 a{
     color: #000000;
     text-decoration: none;
@@ -43,7 +42,6 @@ main{
 
 main h2{
     background-image: linear-gradient(to right, var(--cor02), var(--cor01));
-    margin-bottom: 30px;
     text-shadow: 2px 2px 2px var(--cor03);
     
 }
@@ -59,49 +57,3 @@ footer{
     width: 100%;
 }
 
-.imagens{
-    align-items: center;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 40px;
-    justify-content: center;
-    margin: 20px;
-    padding: 20px;
-    margin: 100px;
-}
-
-.heart{
-    width: 70px;
-    animation: pulsar1 2s infinite alternate;
-}
-
-@keyframes pulsar1{
-    0%{
-        transform: scale(.8);
-    }
-    100%{
-        transform: scale(1.2);
-    }
-}
-
-.circle{
-    border-radius: 50%;
-    border: none;
-    width: 70px;
-    animation: pulsar2 2s infinite alternate-reverse;
-}
-
-@keyframes pulsar2{
-    0%{
-        box-shadow: 0 0 0 0 var(--cor04);
-        transform: scale(.80);
-    }
-    70%{
-        box-shadow: 0 0 0 20px var(--cor03);
-        transform: scale(.90);
-    }
-    100%{
-        box-shadow: 0 0 0 0 var(--cor02);
-        transform: scale(.80);
-    }
-}
