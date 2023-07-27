@@ -59,3 +59,14 @@ Referências: [Online Tutorials](https://www.youtube.com/channel/UCbwXnUipZsLfUc
 
 * Animações CSS
 * Transform
+
+## Dia 6 - Efeito Texto brilhando
+
+
+<p align="center"><img src="imagens/dia-06.gif" alt="Imagem do sexto desafio"width="300px"></p>
+
+### O que aprendi e utilizei
+
+* Animações CSS
+* Nth-of-type
+* Text-shadow
