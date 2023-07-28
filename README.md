@@ -70,3 +70,14 @@ Referências: [Online Tutorials](https://www.youtube.com/channel/UCbwXnUipZsLfUc
 * Animações CSS
 * Nth-of-type
 * Text-shadow
+
+## Dia 7 - Texto esfumaçado
+
+
+<p align="center"><img src="imagens/dia-07.gif" alt="Imagem do sétimo desafio"width="300px"></p>
+
+### O que aprendi e utilizei
+
+* Filter blur
+* Rotate e translate
+* Transição e delay
