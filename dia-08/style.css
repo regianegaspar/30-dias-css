@@ -57,3 +57,71 @@ footer{
     width: 100%;
 }
 
+.loader{
+    height: 150px;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    width: 150px;
+
+}
+
+.loader span{
+    animation: animar 2s linear infinite;
+    background: var(--cor02);
+    border-radius: 10px;
+    height: 50px;
+    position: absolute;
+    width: 50px;
+}
+
+.loader span:nth-child(1){
+    animation-delay: 0.7s;
+    background: var(--cor04);
+}
+
+.loader span:nth-child(2){
+    animation-delay: 1.4s;
+    background: var(--cor03);
+}
+
+@keyframes animar {
+    0%{
+        left: 0;
+        top: 0;
+    }
+    12.5%{  
+        left: 50%;
+        top: 0;
+
+    }
+    25%{
+        left: 50%;
+        top: 0;
+    }
+    37.5%{
+        left: 50%;
+        top: 50%;
+    }
+    50%{
+        left: 50%;
+        top: 50%;
+    }
+    62.5%{
+        left: 0;
+        top: 50%;
+    }
+    75%{
+        left: 0;
+        top: 50%;
+    }
+    87.5%{
+        left: 0;
+        top: 0;
+    }
+    100%{
+        left: 0;
+        top: 0;
+    }
+}

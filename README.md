@@ -81,3 +81,13 @@ Referências: [Online Tutorials](https://www.youtube.com/channel/UCbwXnUipZsLfUc
 * Filter blur
 * Rotate e translate
 * Transição e delay
+
+## Dia 8 - Preloader animado
+
+
+<p align="center"><img src="imagens/dia-08.gif" alt="Imagem do oitavo desafio"width="300px"></p>
+
+### O que aprendi e utilizei
+
+* Animação CSS
+* Nth-child
