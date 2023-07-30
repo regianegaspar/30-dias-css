@@ -82,12 +82,14 @@ Referências: [Online Tutorials](https://www.youtube.com/channel/UCbwXnUipZsLfUc
 * Rotate e translate
 * Transição e delay
 
-## Dia 8 - Preloader animado
+## Dia 9 - Pendulo de Newton
 
 
-<p align="center"><img src="imagens/dia-08.gif" alt="Imagem do oitavo desafio"width="300px"></p>
+<p align="center"><img src="imagens/dia-09.gif" alt="Imagem do novo desafio"width="300px"></p>
 
 ### O que aprendi e utilizei
 
 * Animação CSS
-* Nth-child
+* Before
+* Fist-child
+* Last-child
