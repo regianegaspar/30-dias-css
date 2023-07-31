@@ -93,3 +93,14 @@ Referências: [Online Tutorials](https://www.youtube.com/channel/UCbwXnUipZsLfUc
 * Before
 * Fist-child
 * Last-child
+
+## Dia 10 - Efeito máquina de escrever
+
+
+<p align="center"><img src="imagens/dia-10.gif" alt="Imagem do décimo desafio"width="300px"></p>
+
+### O que aprendi e utilizei
+
+* Animação CSS
+* Overflow
+* white-space
