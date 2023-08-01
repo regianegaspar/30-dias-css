@@ -1,0 +1,150 @@
+:root{
+    --cor01: #f7fbfc;
+    --cor02: #d6e6f2;
+    --cor03: #b9d7ea;
+    --cor04: #769fcd;
+}
+
+body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: var(--cor01);
+}
+
+header{
+    background-color: var(--cor04);
+    font-size: 24px;
+    margin: 0 auto;
+    padding: 12px;
+    text-align: center;
+    
+}
+
+h1{
+    text-shadow: 2px 2px 2px var(--cor03);
+}
+
+nav{
+    display: flex;
+    gap: 30px;
+    margin: 10px;
+}
+a{
+    color: #000000;
+    text-decoration: none;
+}
+
+main{
+    font-size: 18px;
+    margin: 30px; 
+}
+
+main h2{
+    background-image: linear-gradient(to right, var(--cor02), var(--cor01));
+    text-shadow: 2px 2px 2px var(--cor03);
+    
+}
+
+footer{
+    background-color: var(--cor04);
+    bottom: 0;
+    color: var(--cor02);
+    font-size: 18px;
+    height: 8vh;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
+section{
+    align-items:center;
+    display: flex;
+    justify-content: center;
+    margin-top: 175px;
+}
+
+ul{
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+    
+}
+
+ul li{
+    align-items: center;
+    border: 2px solid var(--cor04);
+    border-radius: 50%;
+    display: flex;
+
+    height: 120px;
+    justify-content: center;
+    list-style-type: none;
+    position: relative;
+    transition: all 0.5s;
+    width: 120px;
+}
+
+ul li i{
+    color: var(--cor04);
+    font-size: 48px;
+    transition: 0.5s;
+}
+
+ul li:before{
+    background-color: var(--cor04);
+    border-radius: 50%;
+    content: '';
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+ul li:hover{
+    cursor: pointer;
+}
+
+ul li:hover:before{
+    opacity: 1;
+    transform: scale(0.8);
+}
+
+ul li:after{
+    background-color: transparent;
+    border: 2px dashed var(--cor03);
+    border-radius: 50%;
+    box-sizing: border-box;
+    content: '';
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    transition: all 0.5s;
+    width: 100%;
+    z-index: -1;
+
+}
+
+ul li:hover:after {
+    animation: rotating 10s linear infinite;
+    opacity: 1;
+}
+
+@keyframes rotating {
+    0%{
+        transform: scale(0.92) rotate(0deg);
+    }
+    100%{
+        transform: scale(0.92) rotate(360deg);
+    }
+}
+
+ul li:hover i{
+    color: #ffffff;
+}

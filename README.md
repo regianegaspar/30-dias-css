@@ -104,3 +104,14 @@ Referências: [Online Tutorials](https://www.youtube.com/channel/UCbwXnUipZsLfUc
 * Animação CSS
 * Overflow
 * white-space
+
+## Dia 11 - Ícones com efeito
+
+
+<p align="center"><img src="imagens/dia-11.gif" alt="Imagem do décimo primeiro desafio"width="300px"></p>
+
+### O que aprendi e utilizei
+
+* After/before
+* Animação CSS
+* Hover
