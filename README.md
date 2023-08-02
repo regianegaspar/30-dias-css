@@ -115,3 +115,15 @@ Referências: [Online Tutorials](https://www.youtube.com/channel/UCbwXnUipZsLfUc
 * After/before
 * Animação CSS
 * Hover
+
+## Dia 12 - Card com animação flip
+
+
+<p align="center"><img src="imagens/dia-12.gif" alt="Imagem do décimo segundo desafio"width="300px"></p>
+
+### O que aprendi e utilizei
+
+* Backface-visibility
+* Perspective
+* Transform rotateY
+* Z-index
