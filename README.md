@@ -127,3 +127,15 @@ Referências: [Online Tutorials](https://www.youtube.com/channel/UCbwXnUipZsLfUc
 * Perspective
 * Transform rotateY
 * Z-index
+
+## Dia 13 - Checkbox de oração
+
+
+<p align="center"><img src="imagens/dia-13.gif" alt="Imagem do décimo terceiro desafio"width="300px"></p>
+
+### O que aprendi e utilizei
+
+* After e before
+* Input:checked
+* Radial gradient
+* Transform translate

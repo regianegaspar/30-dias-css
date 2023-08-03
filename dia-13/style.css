@@ -1,0 +1,140 @@
+:root{
+    --cor01: #f7fbfc;
+    --cor02: #d6e6f2;
+    --cor03: #b9d7ea;
+    --cor04: #769fcd;
+}
+
+body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: var(--cor01);
+    box-sizing: border-box;
+}
+
+header{
+    background-color: var(--cor04);
+    font-size: 24px;
+    margin: 0 auto;
+    padding: 12px;
+    text-align: center;
+    
+}
+
+h1{
+    text-shadow: 2px 2px 2px var(--cor03);
+}
+
+nav{
+    display: flex;
+    gap: 30px;
+    margin: 10px;
+}
+a{
+    color: #000000;
+    text-decoration: none;
+}
+
+main{
+    font-size: 18px;
+    margin: 30px; 
+}
+
+main h2{
+    background-image: linear-gradient(to right, var(--cor02), var(--cor01));
+    text-shadow: 2px 2px 2px var(--cor03);
+    
+}
+
+footer{
+    background-color: var(--cor04);
+    bottom: 0;
+    color: var(--cor02);
+    font-size: 18px;
+    height: 8vh;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+input{
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+}
+
+label, label:before {
+    height: 400px;
+    width: 400px;
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    background-position: top left, top right, bottom left, bottom right;
+    transition: all linear 0.45s;
+}
+
+label{
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    background-image:
+        radial-gradient(circle at 75% 85.5%, var(--cor04) 25%, transparent 25%),
+        radial-gradient(circle at 25% 85.5%, var(--cor04) 25%, transparent 25%),
+        radial-gradient(circle at 108.8% -41%, var(--cor04) 40%, transparent 40%),
+        radial-gradient(circle at -8.8% -41%, var(--cor04) 40%, transparent 40%);
+}
+
+label:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image:
+        radial-gradient(circle at 75% 85.5%, var(--cor02) 25%, transparent 25%),
+        radial-gradient(circle at 25% 85.5%, var(--cor02) 25%, transparent 25%),
+        radial-gradient(circle at 108.8% -41%, var(--cor02) 40%, transparent 40%),
+        radial-gradient(circle at -8.8% -41%, var(--cor02) 40%, transparent 40%);
+        opacity: 0;
+}
+
+input:checked ~ label:before{
+    opacity: 1;
+}
+
+label:after{
+    content: '';
+    position: absolute;
+    height: 110px;
+    width: 110px;
+    background-color: var(--cor03);
+    border-radius: 50%;
+    /* border: 1px solid black; */
+    animation:  heart-out 0.45s linear forwards;
+}
+
+@keyframes heart-out{
+    0%{transform: translate(195px, 116px);}
+    25%{transform: translate(178px, 134px);}
+    50%{transform: translate(145px, 145px);}
+    75%{transform: translate(114px, 134px);}
+    100%{transform: translate(95px, 116px);}
+}
+
+input:checked ~ label:after{
+    animation: heart-in 0.45s linear forwards;
+}
+
+@keyframes heart-in{
+    0%{transform: translate(95px, 116px);}
+    25%{transform: translate(114px, 134px);}
+    50%{transform: translate(145px, 145px);}
+    75%{transform: translate(178px, 134px);}
+    100%{transform: translate(195px, 116px);}
+}
