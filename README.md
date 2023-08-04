@@ -128,7 +128,7 @@ Referências: [Online Tutorials](https://www.youtube.com/channel/UCbwXnUipZsLfUc
 * Transform rotateY
 * Z-index
 
-## Dia 13 - Checkbox de oração
+## Dia 13 - Checkbox de coração
 
 
 <p align="center"><img src="imagens/dia-13.gif" alt="Imagem do décimo terceiro desafio"width="300px"></p>
@@ -139,3 +139,15 @@ Referências: [Online Tutorials](https://www.youtube.com/channel/UCbwXnUipZsLfUc
 * Input:checked
 * Radial gradient
 * Transform translate
+
+## Dia 14 - 
+
+
+<p align="center"><img src="imagens/dia-14.gif" alt="Imagem do décimo quarto desafio"width="300px"></p>
+
+### O que aprendi e utilizei
+
+* Animação CSS
+* Background-clip
+* Linear-gradient
+* Text fill color

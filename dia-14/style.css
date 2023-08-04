@@ -1,0 +1,85 @@
+:root{
+    --cor01: #f7fbfc;
+    --cor02: #d6e6f2;
+    --cor03: #b9d7ea;
+    --cor04: #769fcd;
+}
+
+body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: var(--cor01);
+}
+
+header{
+    background-color: var(--cor04);
+    font-size: 24px;
+    margin: 0 auto;
+    padding: 12px;
+    text-align: center;
+    
+}
+
+h1{
+    text-shadow: 2px 2px 2px var(--cor03);
+}
+
+nav{
+    display: flex;
+    gap: 30px;
+    margin: 10px;
+}
+a{
+    color: #000000;
+    text-decoration: none;
+}
+
+main{
+    font-size: 18px;
+    margin: 30px; 
+}
+
+main h2{
+    background-image: linear-gradient(to right, var(--cor02), var(--cor01));
+    text-shadow: 2px 2px 2px var(--cor03);
+    
+}
+
+footer{
+    background-color: var(--cor04);
+    bottom: 0;
+    color: var(--cor02);
+    font-size: 18px;
+    height: 8vh;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
+section{
+    align-items: center;
+    background-color: #000000;
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    margin: 0 auto;
+    width: 300px;
+}
+
+div{
+    animation: animar 2s linear infinite;
+    background: linear-gradient(to right, #f10a76 10%, #1599f1 50%, #f10a76 90%);
+    background-size: 200% auto;
+    font-family: 'Itim', cursive;
+    font-size: 40px;
+    letter-spacing: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@keyframes animar{
+    to{ background-position: 200% center;}
+}
