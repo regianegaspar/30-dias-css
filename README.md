@@ -140,7 +140,7 @@ Referências: [Online Tutorials](https://www.youtube.com/channel/UCbwXnUipZsLfUc
 * Radial gradient
 * Transform translate
 
-## Dia 14 - 
+## Dia 14 - Texto com gradiente animado
 
 
 <p align="center"><img src="imagens/dia-14.gif" alt="Imagem do décimo quarto desafio"width="300px"></p>
@@ -151,3 +151,15 @@ Referências: [Online Tutorials](https://www.youtube.com/channel/UCbwXnUipZsLfUc
 * Background-clip
 * Linear-gradient
 * Text fill color
+
+## Dia 15 - Menu com efeito hover
+
+
+<p align="center"><img src="imagens/dia-15.gif" alt="Imagem do décimo quinto desafio"width="300px"></p>
+
+### O que aprendi e utilizei
+
+* After e before
+* Hover
+* Transform scale
+* Transition

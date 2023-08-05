@@ -1,0 +1,151 @@
+:root{
+    --cor01: #f7fbfc;
+    --cor02: #d6e6f2;
+    --cor03: #b9d7ea;
+    --cor04: #769fcd;
+}
+
+body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    /* background-color: var(--cor01); */
+    box-sizing: border-box;
+}
+
+header{
+    background-color: var(--cor04);
+    font-size: 24px;
+    margin: 0 auto;
+    padding: 12px;
+    text-align: center;
+    
+}
+
+h1{
+    text-shadow: 2px 2px 2px var(--cor03);
+}
+
+nav{
+    display: flex;
+    gap: 30px;
+    margin: 10px;
+}
+a{
+    color: #000000;
+    text-decoration: none;
+}
+
+main{
+    font-size: 18px;
+    margin: 30px; 
+}
+
+main h2{
+    background-image: linear-gradient(to right, var(--cor02), var(--cor01));
+    text-shadow: 2px 2px 2px var(--cor03);
+    
+}
+
+footer{
+    background-color: var(--cor04);
+    bottom: 0;
+    color: var(--cor02);
+    font-size: 18px;
+    height: 8vh;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
+section{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+ul{
+    display: flex;
+    gap: 25px;
+}
+
+li{
+    align-items: center;
+    border-radius: 30px;
+    box-shadow: 10px 10px 25px var(--cor03);
+    /* box-shadow:  0 10px 25px rgba(0, 0, 0, .2); */
+    cursor: pointer;
+    display: flex;
+    height: 60px;
+    justify-content: center;
+    list-style-type: none;
+    position: relative;
+    transition: .5s;
+    width: 60px;
+}
+
+li:hover{
+    box-shadow: none;
+    width: 180px;
+}
+
+li::before{
+    background: var(--cor04);
+    /* background: linear-gradient(45deg, var(--cor04), var(--cor02)); */
+    border-radius: 30px;
+    content: '';
+    inset: 0;
+    opacity: 0;
+    position: absolute;
+    transition: .5s;
+}
+
+li:hover::before{
+    opacity: 1;
+}
+
+li::after{
+    /* background: linear-gradient(45deg, var(--cor04), var(--cor02)); */
+    background: var(--cor04);
+    border-radius: 30px;
+    content: '';
+    filter: blur(15px);
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    z-index: -1;
+}
+
+li:hover::after{
+    opacity: .6;
+}
+
+.imagem{
+    height: 1.75em;
+    transition: .2s;
+    width: 1.75em;
+}
+
+.imagem:hover{
+    transform: scale(0);
+}
+
+.titulo{
+    /* color: #040305; */
+    color: var(--cor01);
+    font-family: 'Itim', cursive;
+    font-weight: bold;
+    font-size: 1.1em;
+    letter-spacing: .1em;
+    position: absolute;
+    text-transform: uppercase;
+    transform: scale(0);
+    transition: .5s;
+}
+
+li:hover .titulo{
+    transform: scale(1);
+    transition-delay: .1s;
+}
