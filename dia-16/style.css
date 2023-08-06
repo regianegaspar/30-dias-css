@@ -1,0 +1,108 @@
+:root{
+    --cor01: #f7fbfc;
+    --cor02: #d6e6f2;
+    --cor03: #b9d7ea;
+    --cor04: #769fcd;
+}
+
+body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: var(--cor01);
+}
+
+header{
+    background-color: var(--cor04);
+    font-size: 24px;
+    margin: 0 auto;
+    padding: 12px;
+    text-align: center;
+    
+}
+
+h1{
+    text-shadow: 2px 2px 2px var(--cor03);
+}
+
+nav{
+    display: flex;
+    gap: 30px;
+    margin: 10px;
+}
+a{
+    color: #000000;
+    text-decoration: none;
+}
+
+main{
+    font-size: 18px;
+    margin: 30px; 
+}
+
+main h2{
+    background-image: linear-gradient(to right, var(--cor02), var(--cor01));
+    text-shadow: 2px 2px 2px var(--cor03);
+    
+}
+
+footer{
+    background-color: var(--cor04);
+    bottom: 0;
+    color: var(--cor02);
+    font-size: 18px;
+    height: 8vh;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
+section{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.container{
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    gap: 5px;
+    height: 60%;
+    justify-content: center;
+    max-width: 65%;
+}
+
+.img{
+    align-items: center;  
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    display: flex;
+    flex: 1;
+    height: 60%;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    transition: all 1s ease-in-out;
+    width: 25%;
+}
+
+.img img{
+    filter: grayscale(1);
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+    transition: 0.5s;
+    width: 100%;
+}
+
+.img:hover{
+    cursor: pointer;
+    flex: 3;
+}
+
+.img:hover img{
+    filter: grayscale(0);
+}

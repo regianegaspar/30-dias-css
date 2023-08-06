@@ -163,3 +163,18 @@ Referências: [Online Tutorials](https://www.youtube.com/channel/UCbwXnUipZsLfUc
 * Hover
 * Transform scale
 * Transition
+
+## Dia 16 - Galeria com hover
+
+
+<p align="center"><img src="imagens/dia-16.gif" alt="Imagem do décimo sexto desafio"width="300px"></p>
+
+### O que aprendi e utilizei
+
+* Filter
+* Filter
+* Hover
+* Object-fit
+* Overflow hidden
+* Position relative e absolute
+* Transition
