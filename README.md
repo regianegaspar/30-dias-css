@@ -172,9 +172,20 @@ Referências: [Online Tutorials](https://www.youtube.com/channel/UCbwXnUipZsLfUc
 ### O que aprendi e utilizei
 
 * Filter
-* Filter
 * Hover
 * Object-fit
 * Overflow hidden
 * Position relative e absolute
 * Transition
+
+## Dia 17 - Card com efeito de livro
+
+
+<p align="center"><img src="imagens/dia-17.gif" alt="Imagem do décimo setimo desafio"width="300px"></p>
+
+### O que aprendi e utilizei
+
+* Hover
+* Perspective
+* Transform rotateY
+* transform origin
