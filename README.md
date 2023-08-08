@@ -189,3 +189,16 @@ Referências: [Online Tutorials](https://www.youtube.com/channel/UCbwXnUipZsLfUc
 * Perspective
 * Transform rotateY
 * transform origin
+
+## Dia 18 - Efeito de preenhimento com hover
+
+
+<p align="center"><img src="imagens/dia-18.gif" alt="Imagem do décimo oitavo desafio"width="300px"></p>
+
+### O que aprendi e utilizei
+
+* Before
+* Hover
+* Overflow hidden
+* Transotions
+* Webkit text stroke
