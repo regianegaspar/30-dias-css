@@ -73,6 +73,7 @@ h3{
     font-family: 'Itim', cursive;
     font-size: 3em;
     position: relative;
+    /* Para dar contorno nas letras */
     -webkit-text-stroke-color: var(--cor05);
     -webkit-text-stroke-width: 0.1px;
 }

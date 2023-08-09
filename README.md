@@ -202,3 +202,17 @@ Referências: [Online Tutorials](https://www.youtube.com/channel/UCbwXnUipZsLfUc
 * Overflow hidden
 * Transotions
 * Webkit text stroke
+
+## Dia 19 - Foguete decolando
+
+
+<p align="center"><img src="imagens/dia-19.gif" alt="Imagem do décimo nono desafio"width="300px"></p>
+
+### O que aprendi e utilizei
+
+* Animation
+* Bootstrap icon
+* Overflow hidden
+* Rotate
+* Translate
+* Z-index
