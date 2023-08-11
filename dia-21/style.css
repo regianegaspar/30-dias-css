@@ -1,0 +1,169 @@
+:root{
+    --cor01: #f7fbfc;
+    --cor02: #d6e6f2;
+    --cor03: #b9d7ea;
+    --cor04: #769fcd;
+}
+
+body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: var(--cor01);
+    box-sizing: border-box;
+}
+
+header{
+    background-color: var(--cor04);
+    font-size: 24px;
+    margin: 0 auto;
+    padding: 12px;
+    text-align: center;  
+}
+
+h1{
+    text-shadow: 2px 2px 2px var(--cor03);
+}
+
+nav{
+    display: flex;
+    gap: 30px;
+    margin: 10px;
+}
+a{
+    color: #000000;
+    text-decoration: none;
+}
+
+main{
+    font-size: 18px;
+    margin: 30px; 
+}
+
+main h2{
+    background-image: linear-gradient(to right, var(--cor02), var(--cor01));
+    text-shadow: 2px 2px 2px var(--cor03);
+    
+}
+
+footer{
+    background-color: var(--cor04);
+    bottom: 0;
+    color: var(--cor02);
+    font-size: 18px;
+    height: 8vh;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
+section{
+    align-items: center;
+    background: black;
+    border-radius: 30px;
+    display: flex;
+    height: 280px;
+    justify-content: center;
+    margin: 0 auto;
+    width: 280px;
+}
+
+.circulos {
+    height: 125px;
+    width: 125px;
+  }
+  
+  .circulo {
+    height: 125px;
+    width: 125px;
+    border-radius: 50%;
+    position: absolute;
+    mix-blend-mode: screen;
+    transform: translate(0, 0);
+  }
+  
+  .circulo:nth-child(odd) {
+    background: #61bea2;
+  }
+  
+  .circulo:nth-child(even) {
+    background: #529ca0;
+  }
+  
+  .circulo:nth-child(1) {
+    animation: circulo-1 4s ease alternate infinite;
+  }
+  
+  .circulo:nth-child(2) {
+    animation: circulo-2 4s ease alternate infinite;
+  }
+  
+  .circulo:nth-child(3) {
+    animation: circulo-3 4s ease alternate infinite;
+  }
+  
+  .circulo:nth-child(4) {
+    animation: circulo-4 4s ease alternate infinite;
+  }
+  
+  .circulo:nth-child(5) {
+    animation: circulo-5 4s ease alternate infinite;
+  }
+  
+  .circulo:nth-child(6) {
+    animation: circulo-6 4s ease alternate infinite;
+  }
+  
+  @keyframes circulo-1 {
+    0% {
+      transform: translate(0, 0);
+    }
+    100% {
+      transform: translate(-35px, -50px);
+    }
+  }
+  
+  @keyframes circulo-2 {
+    0% {
+      transform: translate(0, 0);
+    }
+    100% {
+      transform: translate(35px, 50px);
+    }
+  }
+  
+  @keyframes circulo-3 {
+    0% {
+      transform: translate(0, 0);
+    }
+    100% {
+      transform: translate(-60px, 0);
+    }
+  }
+  
+  @keyframes circulo-4 {
+    0% {
+      transform: translate(0, 0);
+    }
+    100% {
+      transform: translate(60px, 0);
+    }
+  }
+  
+  @keyframes circulo-5 {
+    0% {
+      transform: translate(0, 0);
+    }
+    100% {
+      transform: translate(-35px, 50px);
+    }
+  }
+  
+  @keyframes circulo-6 {
+    0% {
+      transform: translate(0, 0);
+    }
+    100% {
+      transform: translate(35px, -50px);
+    }
+  }
