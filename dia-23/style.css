@@ -81,7 +81,7 @@ span::before{
     0%{
         content: '🍕';
     }
-    45%{
+    25%{
         content: '🐕';
     }
     50%{
