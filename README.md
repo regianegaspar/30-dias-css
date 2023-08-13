@@ -248,3 +248,13 @@ Referências: [Online Tutorials](https://www.youtube.com/channel/UCbwXnUipZsLfUc
 
 * Animation
 * Trnsform rotate
+
+## Dia 23 - Animação com texto alternado
+
+
+<p align="center"><img src="imagens/dia-23.gif" alt="Imagem do vigésimo terceiro desafio"width="300px"></p>
+
+### O que aprendi e utilizei
+
+* Animation
+* Before
