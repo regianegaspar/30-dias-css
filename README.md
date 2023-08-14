@@ -258,3 +258,16 @@ Referências: [Online Tutorials](https://www.youtube.com/channel/UCbwXnUipZsLfUc
 
 * Animation
 * Before
+
+## Dia 24 - Pontos animados
+
+
+<p align="center"><img src="imagens/dia-24.gif" alt="Imagem do vigésimo quarto desafio"width="300px"></p>
+
+### O que aprendi e utilizei
+
+* Animation
+* Moz-animation
+* Nth-child
+* Transform-translate
+* Webkit-animation
