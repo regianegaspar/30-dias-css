@@ -271,3 +271,15 @@ Referências: [Online Tutorials](https://www.youtube.com/channel/UCbwXnUipZsLfUc
 * Nth-child
 * Transform-translate
 * Webkit-animation
+
+## Dia 25 - Slider de imagens
+
+
+<p align="center"><img src="imagens/dia-25.gif" alt="Imagem do vigésimo quinto desafio"width="300px"></p>
+
+### O que aprendi e utilizei
+
+* :Hover, has, nth-child e checked
+* Input radio e label
+* Overflow hidden
+* Position relative e absolut
