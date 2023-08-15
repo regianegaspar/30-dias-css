@@ -1,3 +1,7 @@
+/* Configuração padrão para todos os dias */
+
+
+/* Denifinção de cores */
 :root{
     --cor01: #f7fbfc;
     --cor02: #d6e6f2;
@@ -5,6 +9,7 @@
     --cor04: #769fcd;
 }
 
+/* Definições da página */
 body{
     height: 100vh;
     margin: 0;
@@ -12,13 +17,13 @@ body{
     background-color: var(--cor01);
 }
 
+/* Cabeçalho */
 header{
     background-color: var(--cor04);
     font-size: 24px;
     margin: 0 auto;
     padding: 12px;
     text-align: center;
-    
 }
 
 h1{
@@ -30,6 +35,7 @@ nav{
     gap: 30px;
     margin: 10px;
 }
+
 a{
     color: #000000;
     text-decoration: none;
@@ -42,10 +48,12 @@ main{
 
 main h2{
     background-image: linear-gradient(to right, var(--cor02), var(--cor01));
-    text-shadow: 2px 2px 2px var(--cor03);
-    
+    text-shadow: 2px 2px 2px var(--cor03); 
 }
 
+/* Parte que irá mudar de acordo com o dia */
+
+/* Definindo o tamanho e centralizando */
 ul{
     align-items: center;
     display: flex;
@@ -55,7 +63,6 @@ ul{
     margin: 30px;
     position: relative;
     margin-top: 200px;
-
 }
 
 li{
@@ -79,6 +86,7 @@ li:hover{
     cursor: pointer;
 }
 
+/* Colocando as camadas para cada um dos filhos */
 li:hover span:nth-child(5){
     transform: translate(12px, -12px);
     opacity: 1;

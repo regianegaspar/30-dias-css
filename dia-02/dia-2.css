@@ -15,9 +15,10 @@ div{
     width: 150px;
 }
 
+/* Primeira animação */
 .rodar{
     animation: animacao1 3s linear infinite;
-    border: 10px dotted var(--cor03);
+    border: 10px dotted var(--cor03); /*Definindo que será pontilhada*/
     border-radius: 50%;
     border-top-color: var(--cor04);
 }
@@ -30,6 +31,7 @@ div{
     text-shadow: -1px -1px 10px var(--cor04);
 }
 
+/* Para fazer os pontos rodarem */
 @keyframes animacao1{
     0% {
         transform: rotate(0);
@@ -43,6 +45,7 @@ div{
     animation: atexto 5s linear infinite;
 }
 
+/* Para fazer o texto subir e descer */
 @keyframes atexto{
     0%{
         transform: translateY(20px);
@@ -69,7 +72,7 @@ div{
 .loader{
     animation: animacao2 1.5s linear infinite;
     background-image: linear-gradient(to right, var(--cor02), var(--cor03), var(--cor04));
-    /* background-image: linear-gradient(to right,#14ffe9, #ffeb3b, #ff00e0); */
+    /* Para deixar o liner gradient entre os azuis */
     border-radius: 50%;
     height: 150px;
     position: relative;
@@ -107,7 +110,6 @@ div{
     left: 10px;
     right: 10px;
     bottom: 10px;
-    /* background: #240229; */
     background: var(--cor01);
     border-radius: 50%;
 }
