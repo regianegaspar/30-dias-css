@@ -295,3 +295,14 @@ Referências: [Online Tutorials](https://www.youtube.com/channel/UCbwXnUipZsLfUc
 * Overflow hidden
 * Position relative e absolute
 * Transform translate/rotate
+
+## Dia 27 - Card Hover
+
+
+<p align="center"><img src="imagens/dia-27.gif" alt="Imagem do vigésimo setimo desafio"width="300px"></p>
+
+### O que aprendi e utilizei
+
+* Hover
+* Object-fit
+* Transition
