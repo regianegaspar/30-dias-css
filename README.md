@@ -306,3 +306,17 @@ Referências: [Online Tutorials](https://www.youtube.com/channel/UCbwXnUipZsLfUc
 * Hover
 * Object-fit
 * Transition
+
+## Dia 28 - Card Expansível
+
+
+<p align="center"><img src="imagens/dia-28.gif" alt="Imagem do vigésimo oitavo desafio"width="300px"></p>
+
+### O que aprendi e utilizei
+
+* Hover
+* Overflow hidden
+Position absolute e relative
+* Text overflow
+* Transform translateY
+* Transition
