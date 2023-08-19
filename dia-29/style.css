@@ -1,0 +1,140 @@
+:root{
+    --cor01: #f7fbfc;
+    --cor02: #d6e6f2;
+    --cor03: #b9d7ea;
+    --cor04: #769fcd;
+}
+
+body{
+    background-color: var(--cor01);
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: var(--cor04);
+    font-size: 24px;
+    margin: 0 auto;
+    padding: 12px;
+    text-align: center;
+}
+
+h1{
+    text-shadow: 2px 2px 2px var(--cor03);
+}
+
+nav{
+    display: flex;
+    gap: 30px;
+    margin: 10px;
+}
+
+a{
+    color: #000000;
+    text-decoration: none;
+}
+
+main{
+    font-size: 18px;
+    margin: 30px; 
+}
+
+main h2{
+    background-image: linear-gradient(to right, var(--cor02), var(--cor01));
+    text-shadow: 2px 2px 2px var(--cor03);
+}
+
+footer{
+    background-color: var(--cor04);
+    bottom: 0;
+    color: var(--cor02);
+    font-size: 18px;
+    height: 8vh;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
+section{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.container{
+    align-items: center;
+    background: linear-gradient(18deg, #e37682, #a58fe9);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    overflow: hidden;
+    width: 60%;
+}
+
+.caixa{
+    cursor: pointer;
+    display: flex;
+    height: 200px;
+    margin: auto;
+    text-align: initial;
+    width: 200px;
+}
+
+.hexagono{
+    align-items: center;
+    background: linear-gradient(-180deg, white, #fda3b2);
+    color: white;
+    display: flex;
+    height: 80%;
+    justify-content: center;
+    margin: auto;
+    position: relative;
+    transition: 0.5s;
+    width: 46%;
+}
+
+i{
+    background: linear-gradient(45deg, #a58fe9, #e37682);
+    background-clip: text;
+    color: transparent;
+    font-size: 50px;
+    margin: auto;
+    -webkit-background-clip: text;
+    z-index: 1;
+}
+
+.hexagono::before, .hexagono::after{
+    background: inherit;
+    border-radius: 0;
+    content: "";
+    height: 100%;
+    position: absolute;
+    transform-origin: center;
+    transition: 0.5s;
+    width: 100%;
+}
+
+.hexagono::before{
+    transform: rotateZ(60deg);
+}
+
+.hexagono::after{
+    transform: rotateZ(-60deg);
+}
+
+.hexagono:hover{
+    border-radius: 50px;
+    transition: 0.5s;
+}
+
+.hexagono:hover::before{
+    border-radius: 50px;
+    transition: 0.5s;
+}
+
+.hexagono:hover::after{
+    border-radius: 50px;
+    transition: 0.5s;
+}

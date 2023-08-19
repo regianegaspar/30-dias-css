@@ -316,7 +316,21 @@ Referências: [Online Tutorials](https://www.youtube.com/channel/UCbwXnUipZsLfUc
 
 * Hover
 * Overflow hidden
-Position absolute e relative
+* Position absolute e relative
 * Text overflow
 * Transform translateY
+* Transition
+
+## Dia 29 - Ícone com efeito no hover
+
+
+<p align="center"><img src="imagens/dia-29.gif" alt="Imagem do vigésimo nono desafio"width="300px"></p>
+
+### O que aprendi e utilizei
+
+* Backgroung-clip
+* Hover
+* Overflow hidden
+* Position absolute e relative
+* Transform rotateZ
 * Transition
