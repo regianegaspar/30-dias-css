@@ -334,3 +334,19 @@ Referências: [Online Tutorials](https://www.youtube.com/channel/UCbwXnUipZsLfUc
 * Position absolute e relative
 * Transform rotateZ
 * Transition
+
+## Dia 30 - Imagens om efeito no hover
+
+
+<p align="center"><img src="imagens/dia-30.gif" alt="Imagem do trigesimo desafio"width="300px"></p>
+
+### O que aprendi e utilizei
+
+* Background-position
+* Hover
+* Filter
+* Nth-of-type
+* Perspective
+* Transform rotateX, translateZ
+* Transition
+* z-index
